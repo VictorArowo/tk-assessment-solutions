@@ -1,0 +1,8 @@
+So that everyone gets to eat, there are some situations in which philosophers should pick up a chopstick, and some situations in which they should NOT (because another philosopher needs to use it).
+
+Write a better solution to the dining philosophers problem so that deadlock does NOT occur.
+
+================================================================================================================================================
+
+An aditional constraint to improve the solution provided is to make sure that before a philosopher picks up the first chopstick, 
+another chopstick has to be availabe on the opposite side. This prevents deadlock as only philosophers who can eat pick up chopsticks.

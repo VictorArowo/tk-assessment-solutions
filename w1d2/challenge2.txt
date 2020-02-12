@@ -1,0 +1,40 @@
+welcome_message => String
+historical_data_message => String
+quit_message => String
+win_message => String
+loss_message => String
+tie_message => String
+
+wins => Integer
+ties => Integer
+losses => Integer
+
+choice_options
+
+computer_choice
+user_choice
+
+### procedures
+
+def show_message():
+    1. display welcome_message
+
+def get_scores():
+    2. load historical_data and populate variables with data
+    3. display historical_data_message with historical data
+
+def get_user_choice():
+  4. prompt user to make a choice between rock, paper, scissors, or quit
+    1. if quit, update text file with current wins, ties, losses data and exit game
+    2. if not quit, move on to step 5
+
+def get_computer_choice:
+    5. computer makes a choice between rock, paper, and scissors
+
+def process_guess:
+  6. compare user choice and computer choice
+  7. display message based on result of comparison
+  8. update wins, ties, and losses
+
+
+get_user_choice()
