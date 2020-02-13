@@ -1,0 +1,20 @@
+Composition:
+    Scenario:
+        In an application where you have companies which have employees
+
+    Relationship:
+        Company class
+        Employee subclass
+
+    This is a composition relationship as an Employee can't really exist outside a company
+
+
+Aggregation:
+    Scenario:
+        In an application where you can create teams and add different accounts to that team
+    
+    Relationship:
+        Team class
+        Acount subclass
+
+    This is an aggregation relationship because a Team cah have one/more people, but a Person can exist outside a team
