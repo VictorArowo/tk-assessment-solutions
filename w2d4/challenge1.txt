@@ -1,0 +1,5 @@
+What are some of the tradeoffs exhibited between the recursive Nth Fib solution that utilizes memoization and 
+the iterative Nth Fib solution?
+
+For the recursive Nth Fib solution that utilizes memoization, it's a lot faster since we don't ahve to recalculate previous calculated values. 
+But since it's a recursive solution, we still run the risk overflowing the stack when the input vlaue gets large enough.
