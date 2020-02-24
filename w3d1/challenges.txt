@@ -1,0 +1,26 @@
+============================================================================================================================================
+Question: Draw/model out inserting a new element into a linked list with only one element.
+Starting Linked List => 4
+
+The head of the linked list is 4, and it also points to null.
+To insert a new node(2) at the beginning of the linked list, the new node becomes the head of the linked list, and it points to the previous
+head(4)
+
+New Linked List => 2 -> 4
+
+
+============================================================================================================================================
+Question: Draw/model out how to traverse through a linked list in order to find a target value.
+
+To start off with, set the current node to the head of the linked list, compare the target value to the value at the current node.
+If they aren't equal, change the current node to the next node of the current node, and compare again. If they are equal, return,
+if not rinse and repeat.
+
+============================================================================================================================================
+Question: Draw/model out how to traverse through a linked list in order to find the maximum value in the linked list.
+
+current max is set to the value of the head initially
+
+While current node's next != null
+if current node's value > current max 
+    current max = current node's value
