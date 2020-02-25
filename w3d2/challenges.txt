@@ -1,0 +1,13 @@
+Draw/model out enqueuing into a queue that uses a linked list as its underlying storage structure.
+
+Initial Queue => 5
+
+Enqueuing an element
+This is effectively add ing a new itewm to the tail of the linked list
+4 => 5,4
+3 => 5,4,3
+
+
+Dequeuing an element => This is effectively removing an item from the head if the linked list
+4,3
+3
